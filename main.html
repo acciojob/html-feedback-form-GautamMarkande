@@ -3,25 +3,33 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-	<h1>Feedback Form</h1>
-	<form action="#" method="post">
-		<label for="name">Name</label>
-		<input type="text" minlength="3" maxlength="50" id="name" required/>
-		<label for="portfolio">Portfolio</label>
-		<input type="url" id="portfolio" required/>
-		<label for="fevcolor">Fev Color</label>
-		<input type="color" id="fevcolor"/>
-		
-		<label for="likeness">Likeness</label>
-		<input type="range" min="1" max="100"/>
-		<input type="submit" id="submit"/>
-	</form>
-    <script type="text/javascript" src="./script.js">
+<h1>Feedback Form</h1>
+<form method="POST">
+<div>
+<label for="name">Name</label>
+<input type="text" id="name" minlength="3" maxlength="50" required>
+</div>
+<div>
+<label for="portfolio">Portfolio</label>
+<input type="url" id="portfolio" required>
+</div>
+<div>
+<label for="favColor">Fav Color</label>
+<input type="color" id="favColor">
+</div>
+<div>
+<label for="likeness">Likeliness</label>
+<input type="range" id="likeness" min="1" max="100">
+</div>
+<input type="submit" value="Submit">
+</form>
+
+<!-- the entire body must be written by student -->
+<script type="text/javascript" src="./script.js">
 </script>
 
 </body>
